@@ -61,8 +61,8 @@ A [left] join B on A.x = B.x
 
 ```sql
 # 插入
-insert NAME [col1, col2, ...] values (val1, val2, ...) [, (), ...]
-insert NAME [col1, col2, ...] select ...
+insert NAME [(col1, col2, ...)] values (val1, val2, ...) [, (), ...]
+insert NAME [(col1, col2, ...)] select ...
 
 # 修改
 update NAME
